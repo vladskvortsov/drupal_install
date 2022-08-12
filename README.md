@@ -1,6 +1,6 @@
 # Drupal install
 Quick guide to install Drupal CMS.
-You can install it manually or use script [drupal_install.sh][PlGh].
+You can install it manually or use script [/github/README.md][PlGh][drupal_install.sh][PlGh].
 
 ### Prerequisites
 
