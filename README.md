@@ -1,5 +1,6 @@
 # Drupal install
 Quick guide to install Drupal CMS.
+
 You can install it manually or use script [drupal_install.sh][ghsh].
 
 ### Prerequisites
