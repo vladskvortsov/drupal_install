@@ -42,12 +42,12 @@ sudo wget https://www.drupal.org/download-latest/tar.gz -O drupal.tar.gz
 sudo tar -xvf drupal.tar.gz
 sudo mv drupal-*.* /var/www/html/drupal
 ```
-Change priveleges: 
+Grant priveleges: 
 ```sh
 sudo chown -R www-data:www-data /var/www/html/drupal/
 sudo chmod -R 755 /var/www/html/drupal/
 ```    
-Add following in /etc/apache2/sites-available/drupal.conf to define
+Add following in /etc/apache2/sites-available/drupal.conf file to define
 host name (in my case localhost):
 ```sh
 sudo echo '<VirtualHost *:80>
@@ -74,7 +74,7 @@ sudo echo '<VirtualHost *:80>
     </Directory>
 </VirtualHost>' > /etc/apache2/sites-available/drupal.conf
 ```    
-> Note: `You can use vim if you wish.
+> Note: You can use vim if you wish.
 
 Enable site and restart apache server:
 ```sh
@@ -82,4 +82,4 @@ sudo a2ensite drupal.conf
 sudo a2enmod rewrite
 sudo systemctl restart apache2
 ``` 
-Then open your browser type host name and you be able to configure drupal in interactive mode.
+Then open your browser, type host name and be able to configure drupal in interactive mode.
