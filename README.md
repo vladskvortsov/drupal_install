@@ -1,6 +1,6 @@
 # Drupal install
 Quick guide to install Drupal CMS.
-You can install it manually or use script [/github/README.md][PlGh][drupal_install.sh][PlGh].
+You can install it manually or use script [drupal_install.sh][ghsh].
 
 ### Prerequisites
 
@@ -83,3 +83,6 @@ sudo a2enmod rewrite
 sudo systemctl restart apache2
 ``` 
 Then open your browser, type host name and be able to configure drupal in interactive mode.
+
+[git-repo-url]: <https://github.com/vladskvortsov/drupal_install/>
+[ghsh]: <https://github.com/vladskvortsov/drupal_install/blob/master/drupal_install.sh>
